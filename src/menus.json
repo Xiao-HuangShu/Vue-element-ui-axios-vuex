@@ -1,0 +1,256 @@
+    [
+        {
+          "displayName": "首页",
+          "key": "index",
+          "menuItem": true
+        },
+        {
+            "displayName": "报表导入",
+            "key": "report-import",
+            "subMenu": [
+                {
+                    "displayName": "销售记录查询",
+                    "key": "saleordersearchlist",
+                    "auth": []
+                },
+                {
+                    "displayName": "销售报表导入",
+                    "key": "salerecordimport",
+                    "auth": []
+                },
+                {
+                    "displayName": "当日未销售综合体查询",
+                    "key": "unsaleordersearch",
+                    "auth": []
+                },
+                {
+                    "displayName": "要货单导入",
+                    "key": "require-import",
+                    "auth": []
+                },
+                {
+                    "displayName": "要货单查询",
+                    "key": "require-shop-search",
+                    "auth": []
+                }
+            ]
+        },
+        {
+            "displayName": "日常销售管理",
+            "key": "daily-sale",
+            "subMenu": [
+                {
+                    "displayName": "回款流水",
+                    "key": "statements",
+                    "auth": []
+                },
+                {
+                    "displayName": "回款订单",
+                    "key": "remittance-search",
+                    "auth": []
+                },
+                {
+                    "displayName": "销售额账单",
+                    "key": "saleStat-bill-search",
+                    "auth": []
+                },
+                {
+                    "displayName": "销售额对账统计",
+                    "key": "saleStat-reconciliation-search",
+                    "auth": []
+                },
+                {
+                    "displayName": "缴费记录",
+                    "key": "payment",
+                    "auth": []
+                },
+                {
+                    "displayName": "缴费对账统计",
+                    "key": "payment-reconciliation",
+                    "auth": []
+                },
+                {
+                    "displayName": "销售线下回款销账",
+                    "key": "sale-offline-search",
+                    "auth": []
+                },
+                {
+                    "displayName": "余额变更查询",
+                    "key": "balance-search",
+                    "auth": []
+                },
+                {
+                    "displayName": "日常销售账单查询",
+                    "key": "saleordersearch",
+                    "auth": []
+                },
+                {
+                    "displayName": "新货申请",
+                    "key": "newrequire-search",
+                    "auth": []
+                }
+            ]
+        },
+        {
+            "displayName": "专项回款管理",
+            "key": "turnovers",
+            "subMenu": [
+                {
+                    "displayName": "综合体充值明细",
+                    "key": "cardbill-recharge-search",
+                    "auth": []
+                },
+                {
+                    "displayName": "卡充值日账单",
+                    "key": "cardbill-bill-search",
+                    "auth": []
+                },
+                {
+                    "displayName": "卡充值日账单汇总",
+                    "key": "cardbill-bill-search-finance",
+                    "auth": []
+                },
+                {
+                    "displayName": "城市经理回款流水",
+                    "key": "citymanager-flow-search",
+                    "auth": []
+                },
+                {
+                    "displayName": "城市经理回款对账单",
+                    "key": "citymanager-bill-search",
+                    "auth": []
+                },
+                {
+                    "displayName": "城市经理回款对账单汇总",
+                    "key": "citymanager-bill-search-finance",
+                    "auth": []
+                },
+                {
+                    "displayName": "城市经理线下回款销账",
+                    "key": "citymanager-offline-search",
+                    "auth": []
+                }
+            ]
+        },
+        {
+            "displayName": "订单管理",
+            "key": "orders",
+            "subMenu": [
+                {
+                    "displayName": "预售订单",
+                    "key": "presale",
+                    "auth": []
+                },
+                {
+                    "displayName": "预售子订单",
+                    "key": "presale-batch",
+                    "auth": []
+                },
+                {
+                    "displayName": "包销订单",
+                    "key": "sales",
+                    "auth": []
+                },
+                {
+                    "displayName": "种植/养殖计划",
+                    "key": "plantplan-search",
+                    "auth": []
+                },
+                {
+                    "displayName": "化肥订货单管理",
+                    "key": "fertilizer_order_list",
+                    "auth": []
+                }
+            ]
+        },
+        {
+            "displayName": "商品管理",
+            "key": "goods",
+            "subMenu": [
+                {
+                    "displayName": "类目管理",
+                    "key": "category",
+                    "auth": []
+                },
+                {
+                    "displayName": "商品管理",
+                    "key": "goods",
+                    "auth": []
+                }
+            ]
+        },
+        {
+            "displayName": "系统配置",
+            "key": "system",
+            "subMenu": [
+                {
+                    "displayName": "顶部banner",
+                    "key": "banners",
+                    "auth": []
+                },
+                {
+                    "displayName": "常见问题",
+                    "key": "qna",
+                    "auth": []
+                },
+                {
+                    "displayName": "子公司账户配置",
+                    "key": "company",
+                    "auth": []
+                }
+            ]
+        },
+        {
+            "displayName": "APP权限控制",
+            "key": "role-search",
+            "subMenu": [
+                {
+                    "displayName": "角色列表",
+                    "key": "role-search",
+                    "auth": []
+                },
+                {
+                    "displayName": "人员管理",
+                    "key": "person",
+                    "auth": []
+                }
+            ]
+        },
+        {
+            "displayName": "基础信息管理",
+            "key": "basic-info",
+            "subMenu": [
+                {
+                    "displayName": "代办员管理",
+                    "key": "agents",
+                    "auth": []
+                },
+                {
+                    "displayName": "农户信息",
+                    "key": "farmer-search",
+                    "auth": []
+                }
+            ]
+        },
+        {
+            "displayName": "Support相关功能",
+            "key": "support",
+            "subMenu": [
+                {
+                    "displayName": "综合体回款导出",
+                    "key": "workstation-export",
+                    "auth": []
+                },
+                {
+                    "displayName": "销售账单回款",
+                    "key": "support-sale-bill-return",
+                    "auth": []
+                },
+                {
+                    "displayName": "销售报表查询",
+                    "key": "sale-report-query",
+                    "auth": []
+                }
+            ]
+        }
+    ]
