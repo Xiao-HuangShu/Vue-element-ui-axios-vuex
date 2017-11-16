@@ -30,17 +30,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
         '/api/': {
-              // Dev http://10.66.1.119:8002
-              // Test http://10.66.1.119:8004
-              // PRE http://10.66.140.81:8080
-              // target: 'http://10.66.30.66:8009/',
-              // target: 'http://10.66.49.51:8001',
-              // target: 'http://10.66.150.140:81',
-              // target: 'http://10.66.30.66:8001', // 测试地址
-              // target: 'http://10.66.30.66:81', // 测试地址
-              target: 'http://10.66.30.66:81',
-              // target: 'http://10.66.140.9:8001', // 联调地址
-              // target: 'http://10.66.150.135:81', // 生产地址
+              target: 'http://10.66.30.66:81',        
               // target: 'http://localhost:3330', // mock地址
               pathRewrite: {
                   '^/api': '',
